@@ -1,0 +1,16 @@
+VLOAD, 1023, 0   
+VLOAD, 1022, 1  
+VLOAD, 1021, 2   
+VLOAD, 1020, 3  
+VLOAD, 1019, 4
+ADD, 0, 1, 2
+ADD, 1, 2, 3
+ADD, 2, 3, 4
+ADD, 4, 3, 4
+ADD, 4, 3, 3
+ADD, 4, 3, 3
+ADD, 4, 3, 3
+VSTORE, 1000, 3 
+SUB, 2, 1, 4
+VSTORE, 999, 4 
+STOP
